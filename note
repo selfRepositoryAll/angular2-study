@@ -1,0 +1,18 @@
+我们是这样写 Angular 应用的：
+用 Angular 扩展语法编写 HTML 模板，
+用组件类管理这些模板，
+用服务添加应用逻辑，
+ 用模块打包发布组件与服务。// ngmodule
+ 然后，我们通过引导根模块来启动该应用。 Angular 在浏览器中接管、展现应用的内容，并根据我们提供的操作指令响应用户的交互。
+
+
+
+
+ 不管是服务还是组件 都是类 这是确定的 typeScript的类
+ 区别:@component 这是组件的标志 可以引入指令的 directives:[];
+ 同时template 是模板
+ private 私有的 不会被继承 public 会被继承
+
+ 没有模块也是可以 只有组件component 也是可以的 直接bootStrap就可以了
+
+ 缺少对应的脚手架做这个
